@@ -34,28 +34,31 @@ class BoatHandler(webapp2.RequestHandler):
 	
 	# Boat Creation
 	def post(self):
-		boat_data = json.loads(self.request.body)
-		
-		if ('name' in boat_data and \
-			'type' in boat_data and \
-			'length' in boat_data):
+		try:
+			boat_data = json.loads(self.request.body)
 			
-			new_boat = Boat(
-				name=boat_data['name'],
-				type=boat_data['type'],
-				length=boat_data['length'],
-				at_sea=True
-			)
-			new_boat.put()
-			boat_dict = new_boat.to_dict()
-			boat_dict['id'] = new_boat.key.urlsafe()
-			self.response.status = 201
-			self.response.write(json.dumps(boat_dict))
-			self.response.headers['Content-Type'] = 'application/json'
+			if ('name' in boat_data and \
+				'type' in boat_data and \
+				'length' in boat_data):
+				
+				new_boat = Boat(
+					name=boat_data['name'],
+					type=boat_data['type'],
+					length=boat_data['length'],
+					at_sea=True
+				)
+				new_boat.put()
+				boat_dict = new_boat.to_dict()
+				boat_dict['id'] = new_boat.key.urlsafe()
+				self.response.status = 201
+				self.response.write(json.dumps(boat_dict))
+				self.response.headers['Content-Type'] = 'application/json'
+				
+			else:
+				self.response.status = 400
 			
-		else:
+		except:
 			self.response.status = 400
-
 
 class SlipHandler(webapp2.RequestHandler):
 	def get(self):

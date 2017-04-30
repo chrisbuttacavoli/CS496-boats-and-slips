@@ -419,7 +419,7 @@ class LookupSlipHandler(webapp2.RequestHandler):
 
 class MainPage(webapp2.RequestHandler):
     def get(self):
-        self.response.write("welcome!")
+        self.response.write("excellent!!!")
 		
 	
 allowed_methods = webapp2.WSGIApplication.allowed_methods

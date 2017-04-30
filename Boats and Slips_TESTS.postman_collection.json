@@ -1,0 +1,1837 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Boats and Slips",
+		"_postman_id": "de24b8be-4c93-1151-7568-6963990ff90a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Seed boat 1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 201\"] = responseCode.code === 201;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"boatname1\",\n\t\"length\": 7,\n\t\"type\": \"houseboat\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Seed boat 2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 201\"] = responseCode.code === 201;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"boatname2\",\n\t\"length\": 17,\n\t\"type\": \"motorboat\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Returns more than one boat",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 200'] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"tests[\"Returns more than one record\"] = body.length > 1;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Creating a boat without a length",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 400'] = responseCode.code === 400;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"testname\",\n\t\"type\": \"Jet Ski\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Creating a boat without a name",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 400'] = responseCode.code === 400;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"type\": \"Jet Ski\",\n\t\"length\": 24\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Creating a boat without a type",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 400'] = responseCode.code === 400;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Jet Ski\",\n\t\"length\": 24\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Successful boat creation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 201'] = responseCode.code === 201;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"tests['Returns a URL to resource'] = body.self !== null;",
+							"postman.setEnvironmentVariable(\"boatId\", body.id);",
+							"postman.setEnvironmentVariable(\"boatOrigName\", body.name);",
+							"postman.setEnvironmentVariable(\"boatOrigLength\", body.length);",
+							"postman.setEnvironmentVariable(\"boatOrigType\", body.type);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Mr. Bob\",\n\t\"type\": \"Jet Ski\",\n\t\"length\": 24\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Updating a boat",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 204'] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Titanic\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Boat properties correctly updated",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 200'] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"tests[\"Boat id exists\"] = environment.boatId !== null;",
+							"tests[\"Name is updated\"] = environment.boatOrigName != body.name;",
+							"tests[\"Length was not updated\"] = environment.boatOrigLength == body.length",
+							"tests[\"Type was not updated\"] = environment.boatOrigType == body.type",
+							"postman.setEnvironmentVariable(\"boatId\", body.id);",
+							"postman.setEnvironmentVariable(\"boatOrigName\", body.name);",
+							"postman.setEnvironmentVariable(\"boatOrigLength\", body.length);",
+							"postman.setEnvironmentVariable(\"boatOrigType\", body.type);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Replacing a boat",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 204'] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Toasty\",\n\t\"length\": 40,\n\t\"type\": \"Fisher boat\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Replacing a boat requires name",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 400'] = responseCode.code === 400;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"length\": 40,\n\t\"type\": \"Fisher boat\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Replacing a boat requires type",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 400'] = responseCode.code === 400;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"length\": 40,\n\t\"name\": \"Fisher boat\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Replacing a boat requires length",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 400'] = responseCode.code === 400;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"40\",\n\t\"type\": \"Fisher boat\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Checking replaced boat properties",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 200'] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"tests[\"Name is updated\"] = environment.boatOrigName != body.name;",
+							"tests[\"Length is updated\"] = environment.boatOrigName != body.length;",
+							"tests[\"Type is updated\"] = environment.boatOrigName != body.type;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Seed slip 1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 201\"] = responseCode.code === 201;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 47\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Seed slip 2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 201\"] = responseCode.code === 201;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 22\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Returns more than 1 slip",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 200'] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"tests[\"Returns more than one record\"] = body.length > 1;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Successful slip creation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 201'] = responseCode.code === 201;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"tests[\"Departure History is null\"] = body.departure_history === null;",
+							"",
+							"postman.setEnvironmentVariable(\"slipId\", body.id);",
+							"postman.setEnvironmentVariable(\"slipNum\", body.number);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 9\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Can't create a slip with a previously used number",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 403'] = responseCode.code === 403;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": {{slipNum}}\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Creating a boat to make an arrival",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 201'] = responseCode.code === 201;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"tests['Returns a URL to resource'] = body.self !== null;",
+							"postman.setEnvironmentVariable(\"boatId\", body.id);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Tuggy\",\n\t\"type\": \"Tugboat\",\n\t\"length\": 2\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Successful Boat arrival to Slip",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 204\"] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slip/{{slipId}}/boat/{{boatId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"arrival_date\": \"1/1/2010\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Can view boat given a slip ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"tests[\"Returns a boat\"] = body.id !== null;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slip/{{slipId}}/boat",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Creating another slip",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 201\"] = responseCode.code === 201;",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"postman.setEnvironmentVariable(\"emptySlipId\", body.id);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 900\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Docked ship cannot be put into another slip",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 403\"] = responseCode.code === 403;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slip/{{emptySlipId}}/boat/{{boatId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"arrival_date\": \"1/1/2010\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Creating another ship",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 201\"] = responseCode.code === 201;",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"postman.setEnvironmentVariable(\"atSeaBoatId\", body.id);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"boatname2\",\n\t\"length\": 17,\n\t\"type\": \"motorboat\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Taken Dock cannot be assigned another boat",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 403\"] = responseCode.code === 403;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slip/{{slipId}}/boat/{{atSeaBoatId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"arrival_date\": \"1/1/2010\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Updating a slip",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests['Status code is 204'] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips/{{slipId}}",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"arrival_date\": \"1/2/34\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Slip correctly updated",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"tests[\"Slip has a non-null arrival date\"] = body.arrival_date !== null;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips/{{slipId}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Replacing a slip must provide an unused number",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 400\"] = responseCode.code === 400;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips/{{slipId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 47\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Successful slip replace",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 204\"] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips/{{slipId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 53342\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Slip properties correctly updated",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"tests[\"Slip has no departure history\"] = body.departure_history === null;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips/{{slipId}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Cannot depart if no departure date given",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 400\"] = responseCode.code === 400;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}/depart",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Cannot depart if departure data uses incorrect data type",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 400\"] = responseCode.code === 400;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}/depart",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"departure_date\": 4\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Successful Boat Departure",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 204\"] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}/depart",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"departure_date\": \"4/1/2011\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Boat is not viewable anymore from the slip",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 404\"] = responseCode.code === 404;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slip/{{slipId}}/boat",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Cannot depart a boat that is at sea",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 403\"] = responseCode.code === 403;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{atSeaBoatId}}/depart",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"departure_date\": \"5/4/3210\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Slip is empty after departure and has departure history",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"tests[\"No current boat exists\"] = body.current_boat === null;",
+							"tests[\"No arrival date exists\"] = body.arrival_date === null;",
+							"tests[\"Departure history is length 1\"] = body.departure_history.length === 1;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips/{{slipId}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Creating anoter boat to dock at same slip",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 201\"] = responseCode.code === 201;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"postman.setEnvironmentVariable(\"boatId\", body.id);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Bodice\",\n\t\"length\": 99,\n\t\"type\": \"Battleship\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "2nd boat docks to same slip",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 204\"] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slip/{{slipId}}/boat/{{boatId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"arrival_date\": \"2/14/93\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "2nd boat leaves same slip",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 204\"] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}/depart",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"departure_date\": \"2/15/93\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Departure history is correct",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"tests[\"No current boat exists\"] = body.current_boat === null;",
+							"tests[\"No arrival date exists\"] = body.arrival_date === null;",
+							"tests[\"Departure history is length 2\"] = body.departure_history.length === 2;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips/{{slipId}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Replacing a slip should erase departure history",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 204\"] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips/{{slipId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 54191\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Departure history should be erased",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"tests[\"Departure history is empty\"] = body.departure_history === null;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips/{{slipId}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Creating a boat",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 201\"] = responseCode.code === 201;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"postman.setEnvironmentVariable(\"boatId\", body.id);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Ciel\",\n\t\"length\": 14,\n\t\"type\": \"Bulldog\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Creating a slip",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 201\"] = responseCode.code === 201;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"postman.setEnvironmentVariable(\"slipId\", body.id);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 8080\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Docking the boat",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 204\"] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slip/{{slipId}}/boat/{{boatId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"arrival_date\": \"1/31/2010\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Deleting a docked boat",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 204\"] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Slip is correctly updated",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"tests[\"No current boat exists\"] = body.current_boat === null;",
+							"tests[\"No arrival date exists\"] = body.arrival_date === null;",
+							"tests[\"Departure history has length of 1\"] = body.departure_history.length === 1;",
+							"tests[\"Departure history date is undefined\"] = body.departure_history[0].departure_date === null;",
+							"tests[\"Departure history boat ID is set\"] = body.departure_history[0].departed_boat === environment.boatId"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips/{{slipId}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Creating a boat (again)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 201\"] = responseCode.code === 201;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"postman.setEnvironmentVariable(\"boatId\", body.id);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Ciel\",\n\t\"length\": 1043,\n\t\"type\": \"Bulldog\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Creating a slip (again)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 201\"] = responseCode.code === 201;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"",
+							"postman.setEnvironmentVariable(\"slipId\", body.id);"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 9999\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Docking the boat (again)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 204\"] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slip/{{slipId}}/boat/{{boatId}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"arrival_date\": \"1/31/2010\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Finds slip of currently docked boat",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"tests[\"No current boat exists\"] = body.current_boat === environment.boatId;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boat/{{boatId}}/slip",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Deleting a slip that is docked",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 204\"] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/slips/{{slipId}}",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Boat is updated correctly",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"",
+							"var contentTypeHeaderExists = responseHeaders.hasOwnProperty(\"content-type\");",
+							" ",
+							"tests[\"Has Content-Type\"] = contentTypeHeaderExists;",
+							" ",
+							"if (contentTypeHeaderExists) {",
+							"    tests[\"Content-Type is application/json\"] = ",
+							"      responseHeaders[\"content-type\"].has(\"application/json\");",
+							"}",
+							"",
+							"var body = JSON.parse(responseBody);",
+							"tests[\"Boat is at sea\"] = body.at_sea === true;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "localhost:8080/boats/{{boatId}}",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

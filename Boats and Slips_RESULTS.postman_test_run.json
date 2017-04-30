@@ -1,0 +1,3728 @@
+{
+	"id": "cedf451b-f55f-4a2c-8168-7c624f788ca9",
+	"name": "Boats and Slips",
+	"allTests": [],
+	"timestamp": "2017-04-30T02:34:23.293Z",
+	"collection_id": "de24b8be-4c93-1151-7568-6963990ff90a",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "398e7241-1718-c66f-b111-f863207517ee",
+	"data": [],
+	"delay": "100",
+	"count": 1,
+	"collection": {
+		"id": "de24b8be-4c93-1151-7568-6963990ff90a",
+		"name": "Boats and Slips",
+		"description": "",
+		"order": [
+			"bafc4b90-136c-ce00-1356-b7e7291e4c94",
+			"a4a5ebc5-e700-6d3c-00af-b6313b3e7b5c",
+			"322f3026-e152-ff94-eb42-8593913f59e7",
+			"f1c06d0b-37c7-2133-a0ed-167fc665dfb3",
+			"5bddba81-5a89-cf00-5991-8414e9de7ac0",
+			"afd9f12f-910c-3d2f-ad32-7fe26014537b",
+			"4d816962-8230-3d6c-9863-8c82f91fce0a",
+			"5cdd7dd7-dd76-275f-90dd-116e9425d6aa",
+			"12630275-ab34-ed47-bf0f-1d323f1eb34b",
+			"9ee3fbf9-b00c-2bd3-b70e-65975f263619",
+			"06e16ab8-0027-7f8d-926d-39da6eed82ec",
+			"e4fe6f1c-165c-b5f0-56be-5e6a84f4272a",
+			"343647d7-5838-7194-4c06-839c24c7945e",
+			"f49452a2-88db-d8c0-361d-3c43eea68831",
+			"afdff09e-4b22-ad2d-1d9d-c41ac7ecb48d",
+			"40273575-0c33-a044-6c8d-6ebbf8f8823e",
+			"b678527c-f341-6f98-a2b6-dcf5707d7b88",
+			"6d9e26c3-7619-e614-dc07-a0f4fcd22832",
+			"75c06221-d544-f594-2df1-7e3f4b453fe1",
+			"c341d866-3260-48ab-1f95-691ee181d8f2",
+			"f9b214c9-134e-6633-ec2b-53a40e076288",
+			"04988d94-cbad-f622-b4a5-878ee65656e0",
+			"1434b3d4-e83a-d445-cc24-19cc8d3d6d1b",
+			"aba62bc6-a7bf-1b91-2096-a93c6108d3e6",
+			"cd743fab-3e4d-d804-4944-9f350fb15521",
+			"46361407-9e06-6cdd-b6e0-9aad9c7a1174",
+			"bb8b1329-4507-0509-2597-0e67372d6f87",
+			"6e75a2e9-c300-a72c-ce3d-eceddca390bf",
+			"1a341753-dd83-dfca-a3df-ffed8297c803",
+			"48d406cc-cd1b-1ea8-78b3-a22ad78fd650",
+			"3ceafe77-64bb-a915-06d1-93a78a01521b",
+			"1923f910-0f5f-98a2-88ec-e3ccc2329747",
+			"6a1dd98c-b38a-237d-3e04-9f5917fb373d",
+			"c864a530-8d7d-b785-03de-a3d5d07a8c89",
+			"c2c2af1a-c10c-b430-e524-16be7dfb80bf",
+			"3c93b1cc-4eb5-371f-11a3-c5d80de58280",
+			"e759b523-ac4d-a358-1f64-af504f69c101",
+			"5bcb4c39-f1e2-f7fc-0755-3d5632916630",
+			"07382dd2-169c-ce42-f8d3-0bedc6b617d8",
+			"e9981493-fd8e-24ed-cfc1-4706df0f91a1",
+			"ba987d9e-5e17-3813-9369-78fb4edd6f72",
+			"a6fb8ee2-ec7d-70b4-7c69-705093e85e77",
+			"5718e1ca-4b03-f70b-8f86-8d0fa07f2327",
+			"8cffd682-cf33-15fd-54f6-f8583da41856",
+			"bee8d845-72b5-3165-4cce-0279bb8512f5",
+			"e16c1149-a56c-c21d-5caf-5ad49252815a",
+			"59c1708a-eb11-3388-1268-74d9a7c2b91c",
+			"b39ed815-6465-520a-7814-868c67cf9add",
+			"85b75922-856f-ea98-3aa1-2920caa5d624",
+			"2f79b1dc-6765-b5bb-6eff-669935f7fe77",
+			"437b344f-760f-f0e4-56c6-c7be03512820",
+			"15bafbda-7639-c75f-dc7b-61847065fd42",
+			"0364c7cf-0545-e675-557e-62a8c1ce4206",
+			"61690248-b792-28b0-7b5b-97daa11fe363"
+		],
+		"folders": [],
+		"timestamp": 1493262015898,
+		"synced": false,
+		"remote_id": 0,
+		"owner": 0,
+		"subscribed": false,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"createdAt": 1493262015981,
+		"updatedAt": 1493517281099,
+		"write": true,
+		"published": false,
+		"favorite": false,
+		"permissions": {},
+		"syncedPermissions": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "Seed boat 1",
+			"id": "bafc4b90-136c-ce00-1356-b7e7291e4c94",
+			"url": "localhost:8080/boats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"755"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			],
+			"time": "755",
+			"totalRequestTime": "755",
+			"iterationResults": {}
+		},
+		{
+			"name": "Seed boat 2",
+			"id": "a4a5ebc5-e700-6d3c-00af-b6313b3e7b5c",
+			"url": "localhost:8080/boats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"1969"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			],
+			"time": "1969",
+			"totalRequestTime": "1969",
+			"iterationResults": {}
+		},
+		{
+			"name": "Returns more than one boat",
+			"id": "322f3026-e152-ff94-eb42-8593913f59e7",
+			"url": "localhost:8080/boats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"Returns more than one record": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returns more than one record": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"97"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"Returns more than one record": true
+				}
+			],
+			"time": "97",
+			"totalRequestTime": "97",
+			"iterationResults": {}
+		},
+		{
+			"name": "Creating a boat without a length",
+			"id": "f1c06d0b-37c7-2133-a0ed-167fc665dfb3",
+			"url": "localhost:8080/boats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"20"
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			],
+			"time": "20",
+			"totalRequestTime": "20",
+			"iterationResults": {}
+		},
+		{
+			"name": "Creating a boat without a name",
+			"id": "5bddba81-5a89-cf00-5991-8414e9de7ac0",
+			"url": "localhost:8080/boats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"32"
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			],
+			"time": "32",
+			"totalRequestTime": "32",
+			"iterationResults": {}
+		},
+		{
+			"name": "Creating a boat without a type",
+			"id": "afd9f12f-910c-3d2f-ad32-7fe26014537b",
+			"url": "localhost:8080/boats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"30"
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			],
+			"time": "30",
+			"totalRequestTime": "30",
+			"iterationResults": {}
+		},
+		{
+			"name": "Successful boat creation",
+			"id": "4d816962-8230-3d6c-9863-8c82f91fce0a",
+			"url": "localhost:8080/boats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"Returns a URL to resource": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returns a URL to resource": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"57"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"Returns a URL to resource": true
+				}
+			],
+			"time": "57",
+			"totalRequestTime": "57",
+			"iterationResults": {}
+		},
+		{
+			"name": "Updating a boat",
+			"id": "5cdd7dd7-dd76-275f-90dd-116e9425d6aa",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"108"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "108",
+			"totalRequestTime": "108",
+			"iterationResults": {}
+		},
+		{
+			"name": "Boat properties correctly updated",
+			"id": "12630275-ab34-ed47-bf0f-1d323f1eb34b",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"Boat id exists": true,
+				"Name is updated": true,
+				"Length was not updated": true,
+				"Type was not updated": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Boat id exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name is updated": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length was not updated": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type was not updated": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"80"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"Boat id exists": true,
+					"Name is updated": true,
+					"Length was not updated": true,
+					"Type was not updated": true
+				}
+			],
+			"time": "80",
+			"totalRequestTime": "80",
+			"iterationResults": {}
+		},
+		{
+			"name": "Replacing a boat",
+			"id": "9ee3fbf9-b00c-2bd3-b70e-65975f263619",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"70"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "70",
+			"totalRequestTime": "70",
+			"iterationResults": {}
+		},
+		{
+			"name": "Replacing a boat requires name",
+			"id": "06e16ab8-0027-7f8d-926d-39da6eed82ec",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"65"
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			],
+			"time": "65",
+			"totalRequestTime": "65",
+			"iterationResults": {}
+		},
+		{
+			"name": "Replacing a boat requires type",
+			"id": "e4fe6f1c-165c-b5f0-56be-5e6a84f4272a",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"75"
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			],
+			"time": "75",
+			"totalRequestTime": "75",
+			"iterationResults": {}
+		},
+		{
+			"name": "Replacing a boat requires length",
+			"id": "343647d7-5838-7194-4c06-839c24c7945e",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"122"
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			],
+			"time": "122",
+			"totalRequestTime": "122",
+			"iterationResults": {}
+		},
+		{
+			"name": "Checking replaced boat properties",
+			"id": "f49452a2-88db-d8c0-361d-3c43eea68831",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"Name is updated": true,
+				"Length is updated": true,
+				"Type is updated": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name is updated": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length is updated": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type is updated": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"43"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"Name is updated": true,
+					"Length is updated": true,
+					"Type is updated": true
+				}
+			],
+			"time": "43",
+			"totalRequestTime": "43",
+			"iterationResults": {}
+		},
+		{
+			"name": "Seed slip 1",
+			"id": "afdff09e-4b22-ad2d-1d9d-c41ac7ecb48d",
+			"url": "localhost:8080/slips",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"37"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			],
+			"time": "37",
+			"totalRequestTime": "37",
+			"iterationResults": {}
+		},
+		{
+			"name": "Seed slip 2",
+			"id": "40273575-0c33-a044-6c8d-6ebbf8f8823e",
+			"url": "localhost:8080/slips",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"45"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			],
+			"time": "45",
+			"totalRequestTime": "45",
+			"iterationResults": {}
+		},
+		{
+			"name": "Returns more than 1 slip",
+			"id": "b678527c-f341-6f98-a2b6-dcf5707d7b88",
+			"url": "localhost:8080/slips",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"Returns more than one record": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returns more than one record": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"57"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"Returns more than one record": true
+				}
+			],
+			"time": "57",
+			"totalRequestTime": "57",
+			"iterationResults": {}
+		},
+		{
+			"name": "Successful slip creation",
+			"id": "6d9e26c3-7619-e614-dc07-a0f4fcd22832",
+			"url": "localhost:8080/slips",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"Departure History is null": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure History is null": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"47"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"Departure History is null": true
+				}
+			],
+			"time": "47",
+			"totalRequestTime": "47",
+			"iterationResults": {}
+		},
+		{
+			"name": "Can't create a slip with a previously used number",
+			"id": "75c06221-d544-f594-2df1-7e3f4b453fe1",
+			"url": "localhost:8080/slips",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden",
+				"detail": {
+					"name": "Forbidden",
+					"detail": "The request was a legal request, but the server is refusing to respond to it. Unlike a 401 Unauthorized response, authenticating will make no difference."
+				}
+			},
+			"tests": {
+				"Status code is 403": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"47"
+			],
+			"allTests": [
+				{
+					"Status code is 403": true
+				}
+			],
+			"time": "47",
+			"totalRequestTime": "47",
+			"iterationResults": {}
+		},
+		{
+			"name": "Creating a boat to make an arrival",
+			"id": "c341d866-3260-48ab-1f95-691ee181d8f2",
+			"url": "localhost:8080/boats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"Returns a URL to resource": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returns a URL to resource": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"45"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"Returns a URL to resource": true
+				}
+			],
+			"time": "45",
+			"totalRequestTime": "45",
+			"iterationResults": {}
+		},
+		{
+			"name": "Successful Boat arrival to Slip",
+			"id": "f9b214c9-134e-6633-ec2b-53a40e076288",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNj1Cww",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"120"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "120",
+			"totalRequestTime": "120",
+			"iterationResults": {}
+		},
+		{
+			"name": "Can view boat given a slip ID",
+			"id": "04988d94-cbad-f622-b4a5-878ee65656e0",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw/boat",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"Returns a boat": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returns a boat": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"87"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"Returns a boat": true
+				}
+			],
+			"time": "87",
+			"totalRequestTime": "87",
+			"iterationResults": {}
+		},
+		{
+			"name": "Creating another slip",
+			"id": "1434b3d4-e83a-d445-cc24-19cc8d3d6d1b",
+			"url": "localhost:8080/slips",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"35"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			],
+			"time": "35",
+			"totalRequestTime": "35",
+			"iterationResults": {}
+		},
+		{
+			"name": "Docked ship cannot be put into another slip",
+			"id": "aba62bc6-a7bf-1b91-2096-a93c6108d3e6",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNiNCAw/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNj1Cww",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden",
+				"detail": {
+					"name": "Forbidden",
+					"detail": "The request was a legal request, but the server is refusing to respond to it. Unlike a 401 Unauthorized response, authenticating will make no difference."
+				}
+			},
+			"tests": {
+				"Status code is 403": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"55"
+			],
+			"allTests": [
+				{
+					"Status code is 403": true
+				}
+			],
+			"time": "55",
+			"totalRequestTime": "55",
+			"iterationResults": {}
+		},
+		{
+			"name": "Creating another ship",
+			"id": "cd743fab-3e4d-d804-4944-9f350fb15521",
+			"url": "localhost:8080/boats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"42"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			],
+			"time": "42",
+			"totalRequestTime": "42",
+			"iterationResults": {}
+		},
+		{
+			"name": "Taken Dock cannot be assigned another boat",
+			"id": "46361407-9e06-6cdd-b6e0-9aad9c7a1174",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNiNCgw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden",
+				"detail": {
+					"name": "Forbidden",
+					"detail": "The request was a legal request, but the server is refusing to respond to it. Unlike a 401 Unauthorized response, authenticating will make no difference."
+				}
+			},
+			"tests": {
+				"Status code is 403": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"78"
+			],
+			"allTests": [
+				{
+					"Status code is 403": true
+				}
+			],
+			"time": "78",
+			"totalRequestTime": "78",
+			"iterationResults": {}
+		},
+		{
+			"name": "Updating a slip",
+			"id": "bb8b1329-4507-0509-2597-0e67372d6f87",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"45"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "45",
+			"totalRequestTime": "45",
+			"iterationResults": {}
+		},
+		{
+			"name": "Slip correctly updated",
+			"id": "6e75a2e9-c300-a72c-ce3d-eceddca390bf",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"Slip has a non-null arrival date": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Slip has a non-null arrival date": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"52"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"Slip has a non-null arrival date": true
+				}
+			],
+			"time": "52",
+			"totalRequestTime": "52",
+			"iterationResults": {}
+		},
+		{
+			"name": "Replacing a slip must provide an unused number",
+			"id": "1a341753-dd83-dfca-a3df-ffed8297c803",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"32"
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			],
+			"time": "32",
+			"totalRequestTime": "32",
+			"iterationResults": {}
+		},
+		{
+			"name": "Successful slip replace",
+			"id": "48d406cc-cd1b-1ea8-78b3-a22ad78fd650",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"50"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "50",
+			"totalRequestTime": "50",
+			"iterationResults": {}
+		},
+		{
+			"name": "Slip properties correctly updated",
+			"id": "3ceafe77-64bb-a915-06d1-93a78a01521b",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"Slip has no departure history": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Slip has no departure history": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"53"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"Slip has no departure history": true
+				}
+			],
+			"time": "53",
+			"totalRequestTime": "53",
+			"iterationResults": {}
+		},
+		{
+			"name": "Cannot depart if no departure date given",
+			"id": "1923f910-0f5f-98a2-88ec-e3ccc2329747",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNj1Cww/depart",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"28"
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			],
+			"time": "28",
+			"totalRequestTime": "28",
+			"iterationResults": {}
+		},
+		{
+			"name": "Cannot depart if departure data uses incorrect data type",
+			"id": "6a1dd98c-b38a-237d-3e04-9f5917fb373d",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNj1Cww/depart",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"43"
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			],
+			"time": "43",
+			"totalRequestTime": "43",
+			"iterationResults": {}
+		},
+		{
+			"name": "Successful Boat Departure",
+			"id": "c864a530-8d7d-b785-03de-a3d5d07a8c89",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNj1Cww/depart",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"62"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "62",
+			"totalRequestTime": "62",
+			"iterationResults": {}
+		},
+		{
+			"name": "Boat is not viewable anymore from the slip",
+			"id": "c2c2af1a-c10c-b430-e524-16be7dfb80bf",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw/boat",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"52"
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			],
+			"time": "52",
+			"totalRequestTime": "52",
+			"iterationResults": {}
+		},
+		{
+			"name": "Cannot depart a boat that is at sea",
+			"id": "3c93b1cc-4eb5-371f-11a3-c5d80de58280",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNiNCgw/depart",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden",
+				"detail": {
+					"name": "Forbidden",
+					"detail": "The request was a legal request, but the server is refusing to respond to it. Unlike a 401 Unauthorized response, authenticating will make no difference."
+				}
+			},
+			"tests": {
+				"Status code is 403": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"22"
+			],
+			"allTests": [
+				{
+					"Status code is 403": true
+				}
+			],
+			"time": "22",
+			"totalRequestTime": "22",
+			"iterationResults": {}
+		},
+		{
+			"name": "Slip is empty after departure and has departure history",
+			"id": "e759b523-ac4d-a358-1f64-af504f69c101",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"No current boat exists": true,
+				"No arrival date exists": true,
+				"Departure history is length 1": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No current boat exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No arrival date exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure history is length 1": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"22"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"No current boat exists": true,
+					"No arrival date exists": true,
+					"Departure history is length 1": true
+				}
+			],
+			"time": "22",
+			"totalRequestTime": "22",
+			"iterationResults": {}
+		},
+		{
+			"name": "Creating anoter boat to dock at same slip",
+			"id": "5bcb4c39-f1e2-f7fc-0755-3d5632916630",
+			"url": "localhost:8080/boats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"27"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true
+				}
+			],
+			"time": "27",
+			"totalRequestTime": "27",
+			"iterationResults": {}
+		},
+		{
+			"name": "2nd boat docks to same slip",
+			"id": "07382dd2-169c-ce42-f8d3-0bedc6b617d8",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNiNCQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"173"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "173",
+			"totalRequestTime": "173",
+			"iterationResults": {}
+		},
+		{
+			"name": "2nd boat leaves same slip",
+			"id": "e9981493-fd8e-24ed-cfc1-4706df0f91a1",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNiNCQw/depart",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"123"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "123",
+			"totalRequestTime": "123",
+			"iterationResults": {}
+		},
+		{
+			"name": "Departure history is correct",
+			"id": "ba987d9e-5e17-3813-9369-78fb4edd6f72",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"No current boat exists": true,
+				"No arrival date exists": true,
+				"Departure history is length 2": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No current boat exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No arrival date exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure history is length 2": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"63"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"No current boat exists": true,
+					"No arrival date exists": true,
+					"Departure history is length 2": true
+				}
+			],
+			"time": "63",
+			"totalRequestTime": "63",
+			"iterationResults": {}
+		},
+		{
+			"name": "Replacing a slip should erase departure history",
+			"id": "a6fb8ee2-ec7d-70b4-7c69-705093e85e77",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"58"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "58",
+			"totalRequestTime": "58",
+			"iterationResults": {}
+		},
+		{
+			"name": "Departure history should be erased",
+			"id": "5718e1ca-4b03-f70b-8f86-8d0fa07f2327",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"Departure history is empty": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure history is empty": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"50"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"Departure history is empty": true
+				}
+			],
+			"time": "50",
+			"totalRequestTime": "50",
+			"iterationResults": {}
+		},
+		{
+			"name": "Creating a boat",
+			"id": "8cffd682-cf33-15fd-54f6-f8583da41856",
+			"url": "localhost:8080/boats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"43"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true
+				}
+			],
+			"time": "43",
+			"totalRequestTime": "43",
+			"iterationResults": {}
+		},
+		{
+			"name": "Creating a slip",
+			"id": "bee8d845-72b5-3165-4cce-0279bb8512f5",
+			"url": "localhost:8080/slips",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"45"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true
+				}
+			],
+			"time": "45",
+			"totalRequestTime": "45",
+			"iterationResults": {}
+		},
+		{
+			"name": "Docking the boat",
+			"id": "e16c1149-a56c-c21d-5caf-5ad49252815a",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNjNCAw/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNiNCww",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"117"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "117",
+			"totalRequestTime": "117",
+			"iterationResults": {}
+		},
+		{
+			"name": "Deleting a docked boat",
+			"id": "59c1708a-eb11-3388-1268-74d9a7c2b91c",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNiNCww",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"100"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "100",
+			"totalRequestTime": "100",
+			"iterationResults": {}
+		},
+		{
+			"name": "Slip is correctly updated",
+			"id": "b39ed815-6465-520a-7814-868c67cf9add",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNjNCAw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"No current boat exists": true,
+				"No arrival date exists": true,
+				"Departure history has length of 1": true,
+				"Departure history date is undefined": true,
+				"Departure history boat ID is set": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No current boat exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No arrival date exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure history has length of 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure history date is undefined": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure history boat ID is set": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"50"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"No current boat exists": true,
+					"No arrival date exists": true,
+					"Departure history has length of 1": true,
+					"Departure history date is undefined": true,
+					"Departure history boat ID is set": true
+				}
+			],
+			"time": "50",
+			"totalRequestTime": "50",
+			"iterationResults": {}
+		},
+		{
+			"name": "Creating a boat (again)",
+			"id": "85b75922-856f-ea98-3aa1-2920caa5d624",
+			"url": "localhost:8080/boats",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"25"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true
+				}
+			],
+			"time": "25",
+			"totalRequestTime": "25",
+			"iterationResults": {}
+		},
+		{
+			"name": "Creating a slip (again)",
+			"id": "2f79b1dc-6765-b5bb-6eff-669935f7fe77",
+			"url": "localhost:8080/slips",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"40"
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true
+				}
+			],
+			"time": "40",
+			"totalRequestTime": "40",
+			"iterationResults": {}
+		},
+		{
+			"name": "Docking the boat (again)",
+			"id": "437b344f-760f-f0e4-56c6-c7be03512820",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNjNCQw/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNjNCgw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"147"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "147",
+			"totalRequestTime": "147",
+			"iterationResults": {}
+		},
+		{
+			"name": "Finds slip of currently docked boat",
+			"id": "15bafbda-7639-c75f-dc7b-61847065fd42",
+			"url": "localhost:8080/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNjNCgw/slip",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"No current boat exists": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No current boat exists": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"32"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"No current boat exists": true
+				}
+			],
+			"time": "32",
+			"totalRequestTime": "32",
+			"iterationResults": {}
+		},
+		{
+			"name": "Deleting a slip that is docked",
+			"id": "0364c7cf-0545-e675-557e-62a8c1ce4206",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNjNCQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"115"
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": "115",
+			"totalRequestTime": "115",
+			"iterationResults": {}
+		},
+		{
+			"name": "Boat is updated correctly",
+			"id": "61690248-b792-28b0-7b5b-97daa11fe363",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNjNCgw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Has Content-Type": true,
+				"Content-Type is application/json": true,
+				"Boat is at sea": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Boat is at sea": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"50"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Has Content-Type": true,
+					"Content-Type is application/json": true,
+					"Boat is at sea": true
+				}
+			],
+			"time": "50",
+			"totalRequestTime": "50",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 125,
+	"totalFail": 0,
+	"totalTime": 5937,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Seed boat 1",
+			"id": "bafc4b90-136c-ce00-1356-b7e7291e4c94",
+			"url": "localhost:8080/boats",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Seed boat 2",
+			"id": "a4a5ebc5-e700-6d3c-00af-b6313b3e7b5c",
+			"url": "localhost:8080/boats",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Returns more than one boat",
+			"id": "322f3026-e152-ff94-eb42-8593913f59e7",
+			"url": "localhost:8080/boats",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returns more than one record": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Creating a boat without a length",
+			"id": "f1c06d0b-37c7-2133-a0ed-167fc665dfb3",
+			"url": "localhost:8080/boats",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Creating a boat without a name",
+			"id": "5bddba81-5a89-cf00-5991-8414e9de7ac0",
+			"url": "localhost:8080/boats",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Creating a boat without a type",
+			"id": "afd9f12f-910c-3d2f-ad32-7fe26014537b",
+			"url": "localhost:8080/boats",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Successful boat creation",
+			"id": "4d816962-8230-3d6c-9863-8c82f91fce0a",
+			"url": "localhost:8080/boats",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returns a URL to resource": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Updating a boat",
+			"id": "5cdd7dd7-dd76-275f-90dd-116e9425d6aa",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Boat properties correctly updated",
+			"id": "12630275-ab34-ed47-bf0f-1d323f1eb34b",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Boat id exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name is updated": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length was not updated": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type was not updated": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Replacing a boat",
+			"id": "9ee3fbf9-b00c-2bd3-b70e-65975f263619",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Replacing a boat requires name",
+			"id": "06e16ab8-0027-7f8d-926d-39da6eed82ec",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Replacing a boat requires type",
+			"id": "e4fe6f1c-165c-b5f0-56be-5e6a84f4272a",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Replacing a boat requires length",
+			"id": "343647d7-5838-7194-4c06-839c24c7945e",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Checking replaced boat properties",
+			"id": "f49452a2-88db-d8c0-361d-3c43eea68831",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNi1Cww",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name is updated": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Length is updated": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type is updated": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Seed slip 1",
+			"id": "afdff09e-4b22-ad2d-1d9d-c41ac7ecb48d",
+			"url": "localhost:8080/slips",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Seed slip 2",
+			"id": "40273575-0c33-a044-6c8d-6ebbf8f8823e",
+			"url": "localhost:8080/slips",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Returns more than 1 slip",
+			"id": "b678527c-f341-6f98-a2b6-dcf5707d7b88",
+			"url": "localhost:8080/slips",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returns more than one record": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Successful slip creation",
+			"id": "6d9e26c3-7619-e614-dc07-a0f4fcd22832",
+			"url": "localhost:8080/slips",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure History is null": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Can't create a slip with a previously used number",
+			"id": "75c06221-d544-f594-2df1-7e3f4b453fe1",
+			"url": "localhost:8080/slips",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden",
+				"detail": {
+					"name": "Forbidden",
+					"detail": "The request was a legal request, but the server is refusing to respond to it. Unlike a 401 Unauthorized response, authenticating will make no difference."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Creating a boat to make an arrival",
+			"id": "c341d866-3260-48ab-1f95-691ee181d8f2",
+			"url": "localhost:8080/boats",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returns a URL to resource": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Successful Boat arrival to Slip",
+			"id": "f9b214c9-134e-6633-ec2b-53a40e076288",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNj1Cww",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Can view boat given a slip ID",
+			"id": "04988d94-cbad-f622-b4a5-878ee65656e0",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw/boat",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Returns a boat": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Creating another slip",
+			"id": "1434b3d4-e83a-d445-cc24-19cc8d3d6d1b",
+			"url": "localhost:8080/slips",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Docked ship cannot be put into another slip",
+			"id": "aba62bc6-a7bf-1b91-2096-a93c6108d3e6",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNiNCAw/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNj1Cww",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden",
+				"detail": {
+					"name": "Forbidden",
+					"detail": "The request was a legal request, but the server is refusing to respond to it. Unlike a 401 Unauthorized response, authenticating will make no difference."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Creating another ship",
+			"id": "cd743fab-3e4d-d804-4944-9f350fb15521",
+			"url": "localhost:8080/boats",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Taken Dock cannot be assigned another boat",
+			"id": "46361407-9e06-6cdd-b6e0-9aad9c7a1174",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNiNCgw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden",
+				"detail": {
+					"name": "Forbidden",
+					"detail": "The request was a legal request, but the server is refusing to respond to it. Unlike a 401 Unauthorized response, authenticating will make no difference."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Updating a slip",
+			"id": "bb8b1329-4507-0509-2597-0e67372d6f87",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Slip correctly updated",
+			"id": "6e75a2e9-c300-a72c-ce3d-eceddca390bf",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Slip has a non-null arrival date": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Replacing a slip must provide an unused number",
+			"id": "1a341753-dd83-dfca-a3df-ffed8297c803",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Successful slip replace",
+			"id": "48d406cc-cd1b-1ea8-78b3-a22ad78fd650",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Slip properties correctly updated",
+			"id": "3ceafe77-64bb-a915-06d1-93a78a01521b",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Slip has no departure history": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Cannot depart if no departure date given",
+			"id": "1923f910-0f5f-98a2-88ec-e3ccc2329747",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNj1Cww/depart",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Cannot depart if departure data uses incorrect data type",
+			"id": "6a1dd98c-b38a-237d-3e04-9f5917fb373d",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNj1Cww/depart",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Successful Boat Departure",
+			"id": "c864a530-8d7d-b785-03de-a3d5d07a8c89",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNj1Cww/depart",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Boat is not viewable anymore from the slip",
+			"id": "c2c2af1a-c10c-b430-e524-16be7dfb80bf",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw/boat",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found",
+				"detail": {
+					"name": "Not Found",
+					"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Cannot depart a boat that is at sea",
+			"id": "3c93b1cc-4eb5-371f-11a3-c5d80de58280",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNiNCgw/depart",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden",
+				"detail": {
+					"name": "Forbidden",
+					"detail": "The request was a legal request, but the server is refusing to respond to it. Unlike a 401 Unauthorized response, authenticating will make no difference."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Slip is empty after departure and has departure history",
+			"id": "e759b523-ac4d-a358-1f64-af504f69c101",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No current boat exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No arrival date exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure history is length 1": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Creating anoter boat to dock at same slip",
+			"id": "5bcb4c39-f1e2-f7fc-0755-3d5632916630",
+			"url": "localhost:8080/boats",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "2nd boat docks to same slip",
+			"id": "07382dd2-169c-ce42-f8d3-0bedc6b617d8",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNiNCQw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "2nd boat leaves same slip",
+			"id": "e9981493-fd8e-24ed-cfc1-4706df0f91a1",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNiNCQw/depart",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Departure history is correct",
+			"id": "ba987d9e-5e17-3813-9369-78fb4edd6f72",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No current boat exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No arrival date exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure history is length 2": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Replacing a slip should erase departure history",
+			"id": "a6fb8ee2-ec7d-70b4-7c69-705093e85e77",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Departure history should be erased",
+			"id": "5718e1ca-4b03-f70b-8f86-8d0fa07f2327",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNj1CQw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure history is empty": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Creating a boat",
+			"id": "8cffd682-cf33-15fd-54f6-f8583da41856",
+			"url": "localhost:8080/boats",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Creating a slip",
+			"id": "bee8d845-72b5-3165-4cce-0279bb8512f5",
+			"url": "localhost:8080/slips",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Docking the boat",
+			"id": "e16c1149-a56c-c21d-5caf-5ad49252815a",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNjNCAw/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNiNCww",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Deleting a docked boat",
+			"id": "59c1708a-eb11-3388-1268-74d9a7c2b91c",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNiNCww",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Slip is correctly updated",
+			"id": "b39ed815-6465-520a-7814-868c67cf9add",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNjNCAw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No current boat exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No arrival date exists": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure history has length of 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure history date is undefined": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Departure history boat ID is set": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Creating a boat (again)",
+			"id": "85b75922-856f-ea98-3aa1-2920caa5d624",
+			"url": "localhost:8080/boats",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Creating a slip (again)",
+			"id": "2f79b1dc-6765-b5bb-6eff-669935f7fe77",
+			"url": "localhost:8080/slips",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 201,
+				"name": "Created",
+				"detail": {
+					"name": "Created",
+					"detail": "The request has been fulfilled and resulted in a new resource being created."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Docking the boat (again)",
+			"id": "437b344f-760f-f0e4-56c6-c7be03512820",
+			"url": "localhost:8080/slip/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNjNCQw/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNjNCgw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Finds slip of currently docked boat",
+			"id": "15bafbda-7639-c75f-dc7b-61847065fd42",
+			"url": "localhost:8080/boat/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNjNCgw/slip",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"No current boat exists": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Deleting a slip that is docked",
+			"id": "0364c7cf-0545-e675-557e-62a8c1ce4206",
+			"url": "localhost:8080/slips/aghkZXZ-Tm9uZXIRCxIEU2xpcBiAgICAgNjNCQw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Boat is updated correctly",
+			"id": "61690248-b792-28b0-7b5b-97daa11fe363",
+			"url": "localhost:8080/boats/aghkZXZ-Tm9uZXIRCxIEQm9hdBiAgICAgNjNCgw",
+			"time": "2017-04-30T02:34:23.293Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Has Content-Type": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Boat is at sea": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
